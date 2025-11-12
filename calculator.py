@@ -1,12 +1,6 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
-
-One function per operation, in order.
-"""
-
-import math
-# First example
+# https://github.com/3thannguyen/lab11-VN-MI
+# Partner 1: Ethan Nguyen
+# Partner 2: Mahir Isic
 
 import math 
 
