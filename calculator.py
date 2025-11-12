@@ -5,7 +5,26 @@ calculator.py
 One function per operation, in order.
 """
 # First example
+import math 
+
 def add(a, b): 
-    pass
+    return a + b
+
+def sub(a, b): return a - b
+
+def mul(a, b): return a * b
+
+def div(a, b): 
+    if a == 0:
+        raise ZeroDivisionError("Division by 0 is not allowed.")
+    return b / a
+
+def log(a, b):
+    if b <= 0:
+        raise ValueError("A logarithm cannot be negative or zero.")
+    return math.log(b, a)
+
+def exp(a, b):
+    return a ** b
 
 
